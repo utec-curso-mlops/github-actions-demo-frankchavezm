@@ -3,7 +3,7 @@ import fire
 import os
 
 # comentario de prueba
-
+#comentario 2
 def split_data(df_data, perc_data_train):
     df_data_train = df_data.sample(frac=perc_data_train)
     df_data_test = df_data.drop(df_data_train.index)
