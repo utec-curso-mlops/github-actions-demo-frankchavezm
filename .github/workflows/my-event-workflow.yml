@@ -1,11 +1,11 @@
 name: My Event Workflow
-on:
-  push:
-    branches:
-      - "master"
-      - "main"
-    paths:
-      - "**.py"
+on: workflow_dispatch
+   #push:
+  #  branches:
+  #    - "master"
+  #    - "main"
+  #  paths:
+  #    - "**.py"
 jobs:
   model-ci:
     runs-on: ubuntu-latest
